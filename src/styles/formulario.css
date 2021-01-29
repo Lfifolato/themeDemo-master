@@ -1,0 +1,52 @@
+.formulario {
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  width: 100%;
+  max-width: 320px;
+}
+
+.formulario form {
+  text-align: left;
+}
+
+.formulario label {
+  display: block;
+}
+
+.formulario input {
+  display: block;
+  margin: 5px 0 10px;
+  padding: 5px;
+  border: 1px solid #c0c0c0;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 20px;
+  width: 100%;
+}
+
+.formulario button {
+  background: #0d718d;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid #064758;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.formulario select {
+  display: block;
+  margin: 5px 0 10px;
+  padding: 5px;
+  border: 1px solid #c0c0c0;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 20px;
+  width: 100%;
+}
+.formulario .error {
+  color: red;
+  margin: -5px 0 10px;
+}
